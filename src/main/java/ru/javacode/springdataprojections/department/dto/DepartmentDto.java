@@ -1,0 +1,16 @@
+package ru.javacode.springdataprojections.department.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@Builder
+public class DepartmentDto {
+
+    private Long departmentId;
+    private String name;
+}
